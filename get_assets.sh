@@ -7,6 +7,9 @@ mkdir -p assets
 # Copy index.html to assets directory
 cp index.html assets/index.html
 
+# Copy headers file
+cp _headers assets/_headers
+
 # Read the versions.json file and create directories
 for dir in $(jq -r 'keys[]' versions.json); do
     # Create the directory if it doesn't exist
