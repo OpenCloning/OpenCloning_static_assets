@@ -2,6 +2,8 @@
 
 This repository manages and aggregates static assets from various OpenCloning-related repositories. It serves as a centralized location for accessing and serving important data files and resources used across the OpenCloning tools.
 
+https://assets.opencloning.org/
+
 ## Purpose
 
 This repository collects and organizes static assets from multiple repositories (more to come):
