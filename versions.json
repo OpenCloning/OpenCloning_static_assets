@@ -1,0 +1,32 @@
+{
+    "SnapGene_crawler": {
+        "commit": "c0a4f9cf445eb54c0085836dc52db124ad7f4c8c",
+        "repository": "https://github.com/manulera/SnapGene_crawler",
+        "paths": [
+            "index.json"
+        ]
+    },
+    "seva_plasmids_index": {
+        "commit": "f3ad2829b65ff735e2fde570783377e4997cce64",
+        "repository": "https://github.com/manulera/seva_plasmids_index",
+        "paths": [
+            "index.json"
+        ]
+    },
+    "annotated-igem-distribution": {
+        "commit": "cd8dc2363f2ff013f224229e0e12e561b10c3821",
+        "repository": "https://github.com/manulera/annotated-igem-distribution",
+        "paths": [
+            "results/index.json",
+            "results/plasmids"
+        ]
+    },
+    "OpenCloning-submission": {
+        "commit": "0e26e0a58d704255c9f66b2ae26a1cb88051de1f",
+        "repository": "https://github.com/OpenCloning/OpenCloning-submission",
+        "paths": [
+            "index.json",
+            "processed"
+        ]
+    }
+}
