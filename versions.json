@@ -22,7 +22,7 @@
         ]
     },
     "OpenCloning-submission": {
-        "commit": "9d41bda2a77b563f74802c508197c2af680374b2",
+        "commit": "3bd108d2fc6761be8b96f5627eef2c4fa488aca3",
         "repository": "https://github.com/OpenCloning/OpenCloning-submission",
         "paths": [
             "index.json",
