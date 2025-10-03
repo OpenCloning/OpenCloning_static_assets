@@ -65,5 +65,5 @@ For now, I am just doing manual deployments to netlify. If it gets updated more 
 
 ```bash
 python get_assets.py
-netlify deploy -d assets -s 327e12c8-ca69-44d2-adbc-2ac9cd10b3a2
+netlify deploy --prod -d assets -s 327e12c8-ca69-44d2-adbc-2ac9cd10b3a2
 ```
