@@ -14,7 +14,7 @@ This repository collects and organizes static assets from multiple repositories 
 
 ## Building
 
-Just run `./get_assets.sh` to fetch the latest versions. It needs `jq` and `git` to be installed.
+Just run `./get_assets.py` to fetch the latest versions.
 
 The repositories, commits and paths pulled are defined in the `versions.json` file.
 
@@ -62,3 +62,8 @@ The `paths` are relative to the repository root.
 ## Deployment
 
 For now, I am just doing manual deployments to netlify. If it gets updated more often, I will set up a CI/CD pipeline.
+
+```bash
+python get_assets.py
+netlify deploy -d assets -s 327e12c8-ca69-44d2-adbc-2ac9cd10b3a2
+```
