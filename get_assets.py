@@ -64,6 +64,16 @@ def main() -> None:
         # Clean up temp repo
         shutil.rmtree(repo_temp_dir, ignore_errors=True)
 
+    # In the index.html, replace the <!-- tree --> section with the new dirlist
+    dirlist = subprocess.run(
+        ["tree", assets_dir], capture_output=True, text=True
+    ).stdout
+    with open(assets_dir / "index.html", "r", encoding="utf-8") as f:
+        html = f.read()
+    html = html.replace("<!-- tree -->", f"<!-- tree -->\n{dirlist}")
+    with open(assets_dir / "index.html", "w", encoding="utf-8") as f:
+        f.write(html)
+
 
 if __name__ == "__main__":
     main()

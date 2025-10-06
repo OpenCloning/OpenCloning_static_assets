@@ -31,10 +31,11 @@
         ]
     },
     "Open-DNA-Collections": {
-        "commit": "2a5a944405c7d59033c8453ee3403965b2a5ca82",
+        "commit": "23df4802c040fa64bd553be87fea9a12fead05b8",
         "repository": "https://github.com/manulera/Open-DNA-Collections",
         "paths": [
             "scripts/index.json",
+            "scripts/index_overhangs.json",
             "Ecoli Nanobody Toolkit",
             "Open Reporters Collection",
             "Open Yeast Collection",
