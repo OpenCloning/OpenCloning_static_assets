@@ -22,7 +22,7 @@
         ]
     },
     "OpenCloning-submission": {
-        "commit": "3bd108d2fc6761be8b96f5627eef2c4fa488aca3",
+        "commit": "3a0393bfe92ef9e4fda7b149d7feefcbf8acbf76",
         "repository": "https://github.com/OpenCloning/OpenCloning-submission",
         "paths": [
             "index.json",
@@ -31,7 +31,7 @@
         ]
     },
     "Open-DNA-Collections": {
-        "commit": "23df4802c040fa64bd553be87fea9a12fead05b8",
+        "commit": "92caf894c692f993c1959742e5586e34e5bd7d7b",
         "repository": "https://github.com/manulera/Open-DNA-Collections",
         "paths": [
             "scripts/index.json",
