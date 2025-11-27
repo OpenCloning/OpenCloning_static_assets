@@ -1,6 +1,6 @@
 {
     "SnapGene_crawler": {
-        "commit": "c0a4f9cf445eb54c0085836dc52db124ad7f4c8c",
+        "commit": "b4954c62073692d54e96180dd280f3f1e3868a28",
         "repository": "https://github.com/manulera/SnapGene_crawler",
         "paths": [
             "index.json"
@@ -36,6 +36,8 @@
         "paths": [
             "scripts/index.json",
             "scripts/index_overhangs.json",
+            "Bacillus subtilis Protein Secretion Toolkit",
+            "Molecular Diagnostics Toolkit",
             "Ecoli Nanobody Toolkit",
             "Open Reporters Collection",
             "Open Yeast Collection",
