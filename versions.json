@@ -45,5 +45,13 @@
             "Open Enzyme Collection",
             "Open Plasmids"
         ]
+    },
+    "syntaxes" : {
+        "commit": "c3a8dd55df861dd23bbce3045096e22f9d97a1df",
+        "repository": "https://github.com/OpenCloning/syntaxes",
+        "paths": [
+            "syntaxes"
+        ]
     }
+
 }
