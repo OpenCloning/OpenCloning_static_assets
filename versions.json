@@ -47,7 +47,7 @@
         ]
     },
     "syntaxes" : {
-        "commit": "ab11ac3597ef5064a06ffb1d3b462a6099bd511b",
+        "commit": "9285fbf9a72685d9f5e4d7a28ed3fbc5012b9115",
         "repository": "https://github.com/OpenCloning/syntaxes",
         "paths": [
             "syntaxes"
