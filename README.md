@@ -64,6 +64,5 @@ The `paths` are relative to the repository root.
 For now, I am just doing manual deployments to netlify. If it gets updated more often, I will set up a CI/CD pipeline.
 
 ```bash
-python get_assets.py
-netlify deploy --prod -d assets -s 327e12c8-ca69-44d2-adbc-2ac9cd10b3a2
+python get_assets.py && netlify deploy --prod -d assets -s 327e12c8-ca69-44d2-adbc-2ac9cd10b3a2
 ```
